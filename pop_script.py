@@ -32,7 +32,7 @@ class PopReader:
         hst.legend('Население')
         return hst
     
-data = PopReader(file = '/home/toemik/msc_data2.csv', year_from = 1900)#.filter(1900)
+data = PopReader(file = 'data/msc_data2.csv', year_from = 1900)#.filter(1900)
 
 data.crcs()
 data.md_plot()
