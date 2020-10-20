@@ -104,7 +104,7 @@ class PopReader:
         self.future()
         return self.crcs()
     
-data = PopReader(file = '/home/toemik/msc_data2.csv', year_from = 1900)
+data = PopReader(file = 'data/msc_data2.csv', year_from = 1900)
 
 data.scat_future()
 data.hist_future()
